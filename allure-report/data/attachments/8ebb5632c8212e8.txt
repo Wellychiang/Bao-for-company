@@ -1,0 +1,17 @@
+[35mDEBUG   [0m root:bao.py:30 start to post by login
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "POST /E7/MerchantFrontSide/Account/Login HTTP/1.1" 302 0
+[35mDEBUG   [0m root:bao.py:33 
+post: 302
+[35mDEBUG   [0m root:bao.py:42 start to get
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "GET /E7 HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:44 get: 200
+[35mDEBUG   [0m root:bao.py:216 Start to get by get user score
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "GET /E7/MerchantFrontSide/Home/GetUserScore HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:218 Get: {"status":"OK","msg":null,"result":{"aScore":"87,215.0460","fScore":"7,352.0000","profitLoss":"+31,492.2800"}}
+[35mDEBUG   [0m root:bao.py:148 Start to post by withdraw
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "POST /E7/MerchantFrontSide/Financial/Withdraw HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:150 Post: {"status":"OK","msg":"成功","result":{"dataModel":{"serviceType":null,"amount":20.0,"availableScore":87195.0460},"returnCode":"000000","returnMessage":"成功"}}
+[35mDEBUG   [0m root:bao.py:161 Success session
+[35mDEBUG   [0m root:bao.py:216 Start to get by get user score
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "GET /E7/MerchantFrontSide/Home/GetUserScore HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:218 Get: {"status":"OK","msg":null,"result":{"aScore":"87,195.0460","fScore":"7,372.0000","profitLoss":"+31,492.2800"}}

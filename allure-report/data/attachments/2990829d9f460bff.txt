@@ -1,0 +1,9 @@
+[35mDEBUG   [0m root:bao.py:30 start to post by login
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): sit.frontside.web.gt.owms.ark88.local:7878
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "POST /E7/MerchantFrontSide/Account/Login HTTP/1.1" 302 0
+[35mDEBUG   [0m root:bao.py:33 
+post: 302
+[35mDEBUG   [0m root:bao.py:42 start to get
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "GET /E7 HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:44 get: 200
+[35mDEBUG   [0m root:login_test.py:19 Login success!

@@ -1,0 +1,90 @@
+{
+  "uid" : "1ce761cffb3957a9",
+  "name" : "test_login_failed",
+  "fullName" : "login_test#test_login_failed",
+  "historyId" : "786381553e0fb01316b996ac14f5b47c",
+  "time" : {
+    "start" : 1593598014128,
+    "stop" : 1593598058963,
+    "duration" : 44835
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step",
+      "time" : {
+        "start" : 1593598014128,
+        "stop" : 1593598058963,
+        "duration" : 44835
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "None"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7eb1314d9a65d515",
+      "name" : "log",
+      "source" : "7eb1314d9a65d515.txt",
+      "type" : "text/plain",
+      "size" : 836350
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Minus"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=8)"
+  }, {
+    "name" : "suite",
+    "value" : "login_test"
+  }, {
+    "name" : "host",
+    "value" : "CC-1902009"
+  }, {
+    "name" : "thread",
+    "value" : "87764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=8)" ]
+  },
+  "source" : "1ce761cffb3957a9.json",
+  "parameterValues" : [ ]
+}

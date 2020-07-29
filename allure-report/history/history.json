@@ -1,0 +1,157 @@
+{
+  "70c75ef9b243788dd09074e54376b0bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f38f13afbfc6c8c6",
+      "status" : "broken",
+      "statusDetails" : "ValueError: This scenario's response incorrect: {'status_code': 200, 'status': 'OK', 'msg': '成功', 'amount': 20.0, 'availableScore': 2404.559, 'returnMessage': '成功'}\n2020-07-01 18:06:42",
+      "time" : {
+        "start" : 1593597996761,
+        "stop" : 1593598002093,
+        "duration" : 5332
+      }
+    } ]
+  },
+  "c3e050417621e89583b9b23474823c36" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31e308fd6338358a",
+      "status" : "broken",
+      "statusDetails" : "ValueError: Receivable's account incorrect with 123456789",
+      "time" : {
+        "start" : 1593598011530,
+        "stop" : 1593598014104,
+        "duration" : 2574
+      }
+    } ]
+  },
+  "affd37664a443c46d205eb66e479ddda" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6cedc639bc181ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593598002124,
+        "stop" : 1593598011526,
+        "duration" : 9402
+      }
+    } ]
+  },
+  "786381553e0fb01316b996ac14f5b47c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ce761cffb3957a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593598014128,
+        "stop" : 1593598058963,
+        "duration" : 44835
+      }
+    } ]
+  },
+  "37a7986bcd1235eaab6c6619367d7be8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "960b5b9f549a548b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593597994423,
+        "stop" : 1593597996758,
+        "duration" : 2335
+      }
+    } ]
+  },
+  "8bdce1ff9ea1ff7baf0579df3455d6c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93d22db475d1603d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593597936632,
+        "stop" : 1593597942511,
+        "duration" : 5879
+      }
+    } ]
+  },
+  "1b43956c112754d88055e280530c8d5f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7c832c278227cd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593597934429,
+        "stop" : 1593597936628,
+        "duration" : 2199
+      }
+    } ]
+  },
+  "f2a41c2702eeef42b819051dc4209661" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f3da4fe5abb88b4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: not all arguments converted during string formatting",
+      "time" : {
+        "start" : 1593597942516,
+        "stop" : 1593597994365,
+        "duration" : 51849
+      }
+    } ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: not all arguments converted during string formatting",
+      "children" : [ {
+        "name" : "test_withdraw_with_incomplete_and_fundpassword",
+        "uid" : "6f3da4fe5abb88b4",
+        "parentUid" : "6f17ac034aa64d4177ecaed6289c0744",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593597942516,
+          "stop" : 1593597994365,
+          "duration" : 51849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f17ac034aa64d4177ecaed6289c0744"
+    }, {
+      "name" : "ValueError: This scenario's response incorrect: {'status_code': 200, 'status': 'OK', 'msg': '成功', 'amount': 20.0, 'availableScore': 2404.559, 'returnMessage': '成功'}\n2020-07-01 18:06:42",
+      "children" : [ {
+        "name" : "test_withdraw_with_twenty_times",
+        "uid" : "f38f13afbfc6c8c6",
+        "parentUid" : "cad27eebad41fa1daae31fe73060d158",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593597996761,
+          "stop" : 1593598002093,
+          "duration" : 5332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cad27eebad41fa1daae31fe73060d158"
+    }, {
+      "name" : "ValueError: Receivable's account incorrect with 123456789",
+      "children" : [ {
+        "name" : "test_deposit_card_success",
+        "uid" : "31e308fd6338358a",
+        "parentUid" : "bb7d193c4d28d58f6b6d63a3f0da9fe6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593598011530,
+          "stop" : 1593598014104,
+          "duration" : 2574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb7d193c4d28d58f6b6d63a3f0da9fe6"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,117 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "CC-1902009",
+    "children" : [ {
+      "name" : "87764-MainThread",
+      "children" : [ {
+        "name" : "test_withdraw_with_twenty_times",
+        "uid" : "f38f13afbfc6c8c6",
+        "parentUid" : "4cc3c1786ba3471dda44e0ae23cd5284",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593597996761,
+          "stop" : 1593598002093,
+          "duration" : 5332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_withdraw_success",
+        "uid" : "93d22db475d1603d",
+        "parentUid" : "4cc3c1786ba3471dda44e0ae23cd5284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593597936632,
+          "stop" : 1593597942511,
+          "duration" : 5879
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_withdraw_with_not_enough_money",
+        "uid" : "960b5b9f549a548b",
+        "parentUid" : "4cc3c1786ba3471dda44e0ae23cd5284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593597994423,
+          "stop" : 1593597996758,
+          "duration" : 2335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_deposit_card_success",
+        "uid" : "31e308fd6338358a",
+        "parentUid" : "4cc3c1786ba3471dda44e0ae23cd5284",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593598011530,
+          "stop" : 1593598014104,
+          "duration" : 2574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_success",
+        "uid" : "b7c832c278227cd3",
+        "parentUid" : "4cc3c1786ba3471dda44e0ae23cd5284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593597934429,
+          "stop" : 1593597936628,
+          "duration" : 2199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_failed",
+        "uid" : "1ce761cffb3957a9",
+        "parentUid" : "4cc3c1786ba3471dda44e0ae23cd5284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593598014128,
+          "stop" : 1593598058963,
+          "duration" : 44835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_withdraw_with_incomplete_and_fundpassword",
+        "uid" : "6f3da4fe5abb88b4",
+        "parentUid" : "4cc3c1786ba3471dda44e0ae23cd5284",
+        "status" : "broken",
+        "time" : {
+          "start" : 1593597942516,
+          "stop" : 1593597994365,
+          "duration" : 51849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_deposit_success_without_cards",
+        "uid" : "b6cedc639bc181ab",
+        "parentUid" : "4cc3c1786ba3471dda44e0ae23cd5284",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593598002124,
+          "stop" : 1593598011526,
+          "duration" : 9402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cc3c1786ba3471dda44e0ae23cd5284"
+    } ],
+    "uid" : "e3180a0c0ac59c36765d4eec032bcadf"
+  } ]
+}

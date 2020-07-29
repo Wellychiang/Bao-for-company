@@ -1,0 +1,93 @@
+{
+  "uid" : "b7c832c278227cd3",
+  "name" : "test_login_success",
+  "fullName" : "login_test#test_login_success",
+  "historyId" : "1b43956c112754d88055e280530c8d5f",
+  "time" : {
+    "start" : 1593597934429,
+    "stop" : 1593597936628,
+    "duration" : 2199
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step",
+      "time" : {
+        "start" : 1593597934429,
+        "stop" : 1593597936628,
+        "duration" : 2199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'wade01'"
+      }, {
+        "name" : "pwd",
+        "value" : "'a111222'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "2990829d9f460bff",
+      "name" : "log",
+      "source" : "2990829d9f460bff.txt",
+      "type" : "text/plain",
+      "size" : 694
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Positive"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "suite",
+    "value" : "login_test"
+  }, {
+    "name" : "host",
+    "value" : "CC-1902009"
+  }, {
+    "name" : "thread",
+    "value" : "87764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "b7c832c278227cd3.json",
+  "parameterValues" : [ ]
+}

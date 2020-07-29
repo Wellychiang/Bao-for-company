@@ -1,0 +1,177 @@
+[35mDEBUG   [0m root:bao.py:30 start to post by login
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "POST /E7/MerchantFrontSide/Account/Login HTTP/1.1" 302 0
+[35mDEBUG   [0m root:bao.py:33 
+post: 302
+[35mDEBUG   [0m root:bao.py:42 start to get
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "GET /E7 HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:44 get: 200
+[35mDEBUG   [0m root:bao.py:75 Start to post by deposit
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "POST /E7/MerchantFrontSide/Financial/ChargeInfo HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:77 Post: 
+
+            <script src="/js/owms/owms.front.form.validate.js?v=549b5e55-5a62-4194-aa76-a840256d9047"></script>
+<script src="/lib/jquery-validation/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation/jquery.validate-unobtrusive.min.js"></script>
+<script src="/lib/jquery-validation/jquery.validate-extend.min.js"></script>
+
+<script>
+    function comfirmPopup() {
+        if (formSend != undefined) {
+            formSend();
+        }
+    }
+</script>
+
+<div class="modal form auto_height jqMainPopup">
+    <div class="flex_frame">
+        <div class="content_frame jqMainContent">
+
+            <a href="javascript:void(0)" class="modal_close">
+                <div class="close_icon_flex"><img src="/images/modal/ic_modal_close.svg" alt="" onclick="closePopup('.jqMainPopup')"></div>
+            </a>
+
+    <div class="modal_title">&#x5145;&#x503C; &#x5361;&#x5BF9;&#x5361;</div>
+
+            <div class="modal_main_content jqMainContentBody">
+                
+
+
+
+<div class="title_function">
+    <h1>&#x6536;&#x6B3E;&#x65B9;&#x4FE1;&#x606F;</h1>
+    <div class="count_down">
+        <p>&#x652F;&#x4ED8;&#x5012;&#x6570;</p>
+        <p id="timer" class="clock">00:00</p>
+    </div>
+</div>
+
+<table border="0" cellspacing="0" cellpadding="0" class="order">
+    <tbody>
+        <tr>
+            <th>&#x5145;&#x503C;&#x91D1;&#x989D;</th>
+            <td class="currency">
+                <p>50.00</p>
+
+            </td>
+        </tr>
+        <tr>
+            <th>&#x6536;&#x6B3E;&#x94F6;&#x884C;</th>
+            <td>&#x62DB;&#x5546;&#x94F6;&#x884C;</td>
+        </tr>
+        <tr>
+            <th>&#x6536;&#x6B3E;&#x4EBA;&#x59D3;&#x540D;</th>
+            <td>
+                <div class="copy_item_content">
+                    <p>&#x5E73;&#x53F0;&#x5361;</p>
+                    <a href="javascript:void(0)" class="btn_default darker_color jqCopyBtn" data-clipboard-text="&#x5E73;&#x53F0;&#x5361;" onclick="jqCopy('&#x5E73;&#x53F0;&#x5361;')">&#x590D;&#x5236;</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th>&#x6536;&#x6B3E;&#x5E10;&#x53F7;</th>
+            <td>
+                <div class="copy_item_content">
+                    <p>234234235235</p>
+                    <a href="javascript:void(0)" class="btn_default darker_color jqCopyBtn" data-clipboard-text="234234235235" onclick="jqCopy('234234235235')">&#x590D;&#x5236;</a>
+                </div>
+            </td>
+        </tr>
+            <tr>
+                <th>&#x9644;&#x8A00;</th>
+                <td>
+                    <div class="copy_item_content">
+                        <div class="flex_col">
+                            <p>D7V7W</p>
+                            <p class="tip"><span class="highlight">&#x5FC5;&#x9808;&#x5861;&#x5199;&#x6B63;&#x786E;&#x7684;&#x9644;&#x8A00;&#xFF0C;&#x5426;&#x5219;&#x5145;&#x503C;&#x65E0;&#x6CD5;&#x5230;&#x8D26;</span></p>
+                        </div>
+                        <a href="javascript:void(0)" class="btn_default darker_color jqCopyBtn" data-clipboard-text="D7V7W" onclick="jqCopy('D7V7W')">&#x590D;&#x5236;</a>
+                    </div>
+                </td>
+            </tr>
+    </tbody>
+</table>
+
+
+<div class="text_tip">
+    <div class="text_tip_title"><img src="/images/element/ic_tip.svg" alt="">&#x6E29;&#x99A8;&#x63D0;&#x793A;</div>
+    <p>1.&#x94F6;&#x884C;&#x8F6C;&#x8D26;&#x65B9;&#x5F0F;&#xFF0C;&#x6BCF;&#x5929;&#x5145;&#x503C;&#x5904;&#x7406;&#x65F6;&#x95F4;&#x4E3A;&#x65E9;&#x4E0A;9:00&#x81F3;&#x6B21;&#x65E5;&#x51CC;&#x6668;2:00&#x3002;</p>
+    <p>2.&#x6D88;&#x8D39;&#x4E0D;&#x6EE1;&#x5145;&#x503C;&#x7684;30%&#xFF0C;&#x6709;&#x53EF;&#x80FD;&#x88AB;&#x6000;&#x7591;&#x5957;&#x73B0;&#x6216;&#x6D17;&#x94B1;&#xFF0C;&#x5BFC;&#x81F4;&#x5E10;&#x53F7;&#x51BB;&#x7ED3;&#x3002;</p>
+    <p>3.&#x586B;&#x5199;&#x7684;&#x91D1;&#x989D;&#x987B;&#x4E0E;&#x5145;&#x503C;&#x91D1;&#x989D;&#x4E00;&#x81F4;&#xFF0C;&#x5426;&#x5219;&#x65E0;&#x6CD5;&#x5230;&#x8D26;&#x3002;</p>
+    <p>4.&#x4E3A;&#x4FDD;&#x969C;&#x7528;&#x6237;&#x8D44;&#x91D1;&#x5B89;&#x5168;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x4E0D;&#x5B9A;&#x671F;&#x66F4;&#x6362;&#x6536;&#x6B3E;&#x94F6;&#x884C;&#x5361;&#xFF0C;&#x5207;&#x52FF;&#x91CD;&#x590D;&#x4F7F;&#x7528;&#x4E4B;&#x524D;&#x7684;&#x8BB0;&#x5F55;&#x5145;&#x503C;&#xFF0C;&#x5426;&#x5219;&#x9020;&#x6210;&#x5145;&#x503C;&#x5230;&#x9519;&#x8BEF;&#x5E10;&#x53F7;&#x3001;&#x8D44;&#x91D1;&#x4E22;&#x5931;&#xFF0C;&#x5E73;&#x53F0;&#x65E0;&#x6CD5;&#x5904;&#x7406;&#x3002;</p>
+</div>
+
+
+            </div>
+
+            <div class="modal_btn_content fixed_width">
+
+
+    <a href="javascript:void(0)" class=" btn_default  btn_default main_color" onclick="backToChannelSelect()">&#x56DE;&#x5145;&#x503C;&#x5217;&#x8868;</a>
+
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+    <script src="/lib/clipboard.min.js"></script>
+
+    <script>
+        var timerObj;
+        $(function () {
+            new ClipboardJS('.jqCopyBtn');
+
+            display = document.querySelector('#timer');
+            startTimer(600, display);
+
+            $('.close_icon_flex').click(function () {
+                clearInterval(timerObj);
+                layer.closeAll();
+            })
+        })
+
+        function backToChannelSelect() {
+            clearInterval(timerObj);
+            FAjaxHelper.get('/E7/MerchantFrontSide/Financial/Charge', null, function (data) {
+                $('.layui-layer-content').html(data);
+                $('.jqMainPopup').addClass('financial');
+                $('.jqMainContentBody').addClass('recharge');
+            });
+        }
+
+        function jqCopy(data) {
+            FUIHelper.showAutoMessage(data, '&#x5DF2;&#x590D;&#x5236;');
+        }
+
+        function startTimer(duration, display) {
+            var timer = duration, minutes, seconds;
+
+
+            timerObj = setInterval(function () {
+                minutes = parseInt(timer / 60, 10)
+                seconds = parseInt(timer % 60, 10);
+
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = minutes + ":" + seconds;
+
+                if (--timer < 0) {
+                    clearInterval(timerObj);
+                    FUIHelper.showMessage('', '&#x5145;&#x503C;&#x9801;&#x9762;&#x5DF2;&#x904E;&#x671F;', function () {
+                        layer.close(layer.index);
+                        backToChannelSelect();
+                    });
+
+                }
+
+            }, 1000);
+        }
+
+    </script>
+
+
+[35mDEBUG   [0m root:bao.py:105 The exception

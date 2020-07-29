@@ -1,0 +1,31 @@
+[35mDEBUG   [0m root:bao.py:30 start to post by login
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "POST /E7/MerchantFrontSide/Account/Login HTTP/1.1" 302 0
+[35mDEBUG   [0m root:bao.py:33 
+post: 302
+[35mDEBUG   [0m root:bao.py:42 start to get
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "GET /E7 HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:44 get: 200
+[35mDEBUG   [0m root:bao.py:75 Start to post by deposit
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "POST /E7/MerchantFrontSide/Financial/ChargeInfo HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:77 Post: {"status":"OK","msg":"成功","result":{"dataModel":{"serviceType":"WebATM","amount":20.00,"postScript":"","platformBankCardNo":"","platformCardUserName":"","feeRate":0.0,"finalAmount":20.00,"url":"http://register.sit.apollo.ark88.local/Gateway/Pay/19a7334f-7183-42c7-b2a1-a16ae7307b18","countDownTimeSec":600,"rechargeType":3,"bankName":"","serviceTypeName":null},"returnCode":"000000","returnMessage":"成功"}}
+[35mDEBUG   [0m root:bao.py:80 Success session
+[35mDEBUG   [0m root:bao.py:75 Start to post by deposit
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "POST /E7/MerchantFrontSide/Financial/ChargeInfo HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:77 Post: {"status":"OK","msg":"成功","result":{"dataModel":{"serviceType":"WeiXinScan","amount":20.00,"postScript":"","platformBankCardNo":"","platformCardUserName":"","feeRate":0.0,"finalAmount":20.00,"url":"http://register.sit.apollo.ark88.local/Gateway/Pay/03e2e92d-e19e-43a9-9702-d671625100fb","countDownTimeSec":600,"rechargeType":3,"bankName":"","serviceTypeName":null},"returnCode":"000000","returnMessage":"成功"}}
+[35mDEBUG   [0m root:bao.py:80 Success session
+[35mDEBUG   [0m root:bao.py:75 Start to post by deposit
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "POST /E7/MerchantFrontSide/Financial/ChargeInfo HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:77 Post: {"status":"OK","msg":"成功","result":{"dataModel":{"serviceType":"AlipayScan","amount":20.00,"postScript":"","platformBankCardNo":"","platformCardUserName":"","feeRate":0.0,"finalAmount":20.00,"url":"http://register.sit.apollo.ark88.local/Gateway/Pay/15f0c2f0-e184-451a-adf2-ceeb54733434","countDownTimeSec":600,"rechargeType":3,"bankName":"","serviceTypeName":null},"returnCode":"000000","returnMessage":"成功"}}
+[35mDEBUG   [0m root:bao.py:80 Success session
+[35mDEBUG   [0m root:bao.py:75 Start to post by deposit
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "POST /E7/MerchantFrontSide/Financial/ChargeInfo HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:77 Post: {"status":"OK","msg":"成功","result":{"dataModel":{"serviceType":"SpeedyPay","amount":20.00,"postScript":"","platformBankCardNo":"","platformCardUserName":"","feeRate":0.0,"finalAmount":20.00,"url":"http://register.sit.apollo.ark88.local/Gateway/Pay/6c203783-8fb6-4a99-b475-5a1ca62096cb","countDownTimeSec":600,"rechargeType":3,"bankName":"","serviceTypeName":null},"returnCode":"000000","returnMessage":"成功"}}
+[35mDEBUG   [0m root:bao.py:80 Success session
+[35mDEBUG   [0m root:bao.py:75 Start to post by deposit
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "POST /E7/MerchantFrontSide/Financial/ChargeInfo HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:77 Post: {"status":"OK","msg":"成功","result":{"dataModel":{"serviceType":"UnionPayScan","amount":20.00,"postScript":"","platformBankCardNo":"","platformCardUserName":"","feeRate":0.0,"finalAmount":20.00,"url":"http://register.sit.apollo.ark88.local/Gateway/Pay/78886b95-ff89-46f2-bde5-9abbb34a6427","countDownTimeSec":600,"rechargeType":3,"bankName":"","serviceTypeName":null},"returnCode":"000000","returnMessage":"成功"}}
+[35mDEBUG   [0m root:bao.py:80 Success session
+[35mDEBUG   [0m root:bao.py:75 Start to post by deposit
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:442 http://sit.frontside.web.gt.owms.ark88.local:7878 "POST /E7/MerchantFrontSide/Financial/ChargeInfo HTTP/1.1" 200 None
+[35mDEBUG   [0m root:bao.py:77 Post: {"status":"OK","msg":"成功","result":{"dataModel":{"serviceType":"UnionPayFlash","amount":20.88,"postScript":"","platformBankCardNo":"","platformCardUserName":"","feeRate":0.0,"finalAmount":20.88,"url":"http://register.sit.apollo.ark88.local/Gateway/Pay/488776e5-1ec3-4fdb-9071-8e8c11587550","countDownTimeSec":600,"rechargeType":3,"bankName":"","serviceTypeName":null},"returnCode":"000000","returnMessage":"成功"}}
+[35mDEBUG   [0m root:bao.py:80 Success session

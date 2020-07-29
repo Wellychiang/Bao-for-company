@@ -1,0 +1,99 @@
+{
+  "uid" : "93d22db475d1603d",
+  "name" : "test_withdraw_success",
+  "fullName" : "withdraw_test#test_withdraw_success",
+  "historyId" : "8bdce1ff9ea1ff7baf0579df3455d6c7",
+  "time" : {
+    "start" : 1593597936632,
+    "stop" : 1593597942511,
+    "duration" : 5879
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step",
+      "time" : {
+        "start" : 1593597936632,
+        "stop" : 1593597942511,
+        "duration" : 5879
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'wade01'"
+      }, {
+        "name" : "pwd",
+        "value" : "'a111222'"
+      }, {
+        "name" : "fund_pwd",
+        "value" : "'a12345'"
+      }, {
+        "name" : "amount",
+        "value" : "20"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8ebb5632c8212e8",
+      "name" : "log",
+      "source" : "8ebb5632c8212e8.txt",
+      "type" : "text/plain",
+      "size" : 1776
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Positive"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "suite",
+    "value" : "withdraw_test"
+  }, {
+    "name" : "host",
+    "value" : "CC-1902009"
+  }, {
+    "name" : "thread",
+    "value" : "87764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "withdraw_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "93d22db475d1603d.json",
+  "parameterValues" : [ ]
+}

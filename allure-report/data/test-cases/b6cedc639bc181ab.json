@@ -1,0 +1,102 @@
+{
+  "uid" : "b6cedc639bc181ab",
+  "name" : "test_deposit_success_without_cards",
+  "fullName" : "deposit_test#test_deposit_success_without_cards",
+  "historyId" : "affd37664a443c46d205eb66e479ddda",
+  "time" : {
+    "start" : 1593598002124,
+    "stop" : 1593598011526,
+    "duration" : 9402
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step",
+      "time" : {
+        "start" : 1593598002124,
+        "stop" : 1593598011526,
+        "duration" : 9402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'jackson'"
+      }, {
+        "name" : "pwd",
+        "value" : "'a111222'"
+      }, {
+        "name" : "amount",
+        "value" : "20"
+      }, {
+        "name" : "service_type",
+        "value" : "None"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d9073c93676d4fd8",
+      "name" : "log",
+      "source" : "d9073c93676d4fd8.txt",
+      "type" : "text/plain",
+      "size" : 4969
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Positive"
+  }, {
+    "name" : "story",
+    "value" : "story"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=6)"
+  }, {
+    "name" : "suite",
+    "value" : "deposit_test"
+  }, {
+    "name" : "host",
+    "value" : "CC-1902009"
+  }, {
+    "name" : "thread",
+    "value" : "87764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "deposit_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=6)" ]
+  },
+  "source" : "b6cedc639bc181ab.json",
+  "parameterValues" : [ ]
+}
