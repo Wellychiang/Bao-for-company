@@ -3,13 +3,10 @@ import time
 import baoApi.bao
 import pytest
 import logging
-import re
-from colorama import init
 
 
 logging.basicConfig(level=logging.DEBUG, filename='deposit.log',
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-init(autoreset=True)
 
 b = baoApi.bao
 

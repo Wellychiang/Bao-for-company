@@ -1,12 +1,10 @@
 from baoApi import bao
 import time
-from colorama import init
 import allure
 import pytest
 import logging
 
 
-init(autoreset=True)
 b = bao
 logging.basicConfig(level=logging.DEBUG, filename='withdraw.log',
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
