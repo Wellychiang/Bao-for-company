@@ -1,5 +1,4 @@
 import logging
-from colorama import init
 import allure
 import baoApi.bao
 import time
