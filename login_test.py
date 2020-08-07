@@ -1,20 +1,20 @@
 import logging
 import allure
-import baoApi.bao
+import bao
 import time
 import pytest
 
-b = baoApi.bao
+b = bao
 logging.basicConfig(level=logging.DEBUG, filename='login.log',
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 
-@allure.feature('Positive')
-@allure.step('step')
-@pytest.mark.run(order=1)
+# @allure.feature('Positive')
+# @allure.step('step')
+# @pytest.mark.run(order=1)
 def test_login_success(user='wade01', pwd='a111222'):
     response = b.login(user, pwd)
-    if '个人中心' in response['text'] and response['status_code'] == 200:
+    if '确认账号与银行账号不一致' in response['text'] and response['status_code'] == 200:
         logging.debug('Login success!')
     else:
         raise ValueError("Login failed, current response: %s" % response)
@@ -22,9 +22,9 @@ def test_login_success(user='wade01', pwd='a111222'):
 
 # 驗證點為正常登入,帳密正確與否, 第六次錯誤後輸入正確密碼會進入鎖IP頁面
 # 記得跑完一次就要DB:userbehavior洗掉count次數, 商業後台IP控制刪掉
-@allure.feature('Minus')
-@allure.step("step")
-@pytest.mark.run(order=8)
+# @allure.feature('Minus')
+# @allure.step("step")
+# @pytest.mark.run(order=8)
 def test_login_failed(user=None):
     if user is None:
         user = ['', '#$@#$$@', '11111111111111111', '000000', 'wade10']
@@ -53,5 +53,6 @@ def test_login_failed(user=None):
     assert error == len(user) * len(password) - 1 and outOfFiveTimes == 1
 
 
-if __name__ == '__main__':
-    pytest.main(['-s', '-v', '-r', '--alluredir', 'report'])
+# if __name__ == '__main__':
+#     pytest.main(['-s', '-v', '-r', '--alluredir', 'report'])
+test_login_success(user='wade01', pwd='a111222')

@@ -1,6 +1,6 @@
 import allure
 import time
-import baoApi.bao
+import bao
 import pytest
 import logging
 
@@ -8,12 +8,12 @@ import logging
 logging.basicConfig(level=logging.DEBUG, filename='deposit.log',
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-b = baoApi.bao
+b = bao
 
 
-@allure.feature('Positive')
-@allure.step('step')
-@pytest.mark.run(order=6)
+# @allure.feature('Positive')
+# @allure.step('step')
+# @pytest.mark.run(order=6)
 def test_deposit_success_without_cards(username='jackson', pwd='a111222', amount=20, service_type=None):
     a_type = [
          'WebATM', 'WeiXinScan', 'AlipayScan', 'SpeedyPay', 'UnionPayScan', 'UnionPayFlash'
@@ -57,9 +57,9 @@ def test_deposit_success_without_cards(username='jackson', pwd='a111222', amount
                 "\tError count : %s\n%s" % (error, time.strftime('%Y-%m-%d %H:%M:%S')))
 
 
-@allure.feature('Positive')
-@allure.step('step')
-@pytest.mark.run(order=7)
+# @allure.feature('Positive')
+# @allure.step('step')
+# @pytest.mark.run(order=7)
 # 可以用XPATH補一下應收帳款response的號碼
 def test_deposit_card_success(username='jackson', pwd='a111222', amount=50, service_type=None):
     # DirectPay(卡對卡), WeiXin(微信轉卡), Alipay(支付寶轉卡)

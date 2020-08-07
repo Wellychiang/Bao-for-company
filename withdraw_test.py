@@ -1,4 +1,4 @@
-from baoApi import bao
+import bao
 import time
 import allure
 import pytest
@@ -10,9 +10,9 @@ logging.basicConfig(level=logging.DEBUG, filename='withdraw.log',
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 
-@allure.feature('Positive')
-@allure.step('step')
-@pytest.mark.run(order=2)
+# @allure.feature('Positive')
+# @allure.step('step')
+# @pytest.mark.run(order=2)
 # 可用wade01, jackson
 def test_withdraw_success(user='wade01', pwd='a111222', fund_pwd='a12345', amount=20):
     # global lis
@@ -48,9 +48,9 @@ def test_withdraw_success(user='wade01', pwd='a111222', fund_pwd='a12345', amoun
                              (error, withdraw, time.strftime('%Y-%m-%d %H:%M:%S')))
 
 
-@allure.feature('Minus')
-@allure.step('step')
-@pytest.mark.run(order=3)
+# @allure.feature('Minus')
+# @allure.step('step')
+# @pytest.mark.run(order=3)
 # 目前判斷有無帳號卡、金額邊界(20~499)的response資料是否正確,有可以判斷錯誤在哪的簡易機制(判定當下組別所有錯誤)
 # name變數裡的值"第一個"必須要是有足夠餘額有卡的, 第二個要是沒卡的
 def test_withdraw_with_incomplete_fundpassword_and_nobinding(name=None, range_num=2, pwd='a111222'):
@@ -180,9 +180,9 @@ def test_withdraw_with_incomplete_fundpassword_and_nobinding(name=None, range_nu
 
 
 
-@allure.feature('Minus')
-@allure.step('step')
-@pytest.mark.run(order=4)
+# @allure.feature('Minus')
+# @allure.step('step')
+# @pytest.mark.run(order=4)
 # 可用test05
 def test_withdraw_with_not_enough_money(username='test05', pwd='a111222', funds_pwd='a12345', amount=20):
 
@@ -217,9 +217,9 @@ def test_withdraw_with_not_enough_money(username='test05', pwd='a111222', funds_
                          (withdraw, time.strftime('%Y-%m-%d %H:%M:%S')))
 
 
-@allure.feature("Minus")
-@allure.step('step')
-@pytest.mark.run(order=5)
+# @allure.feature("Minus")
+# @allure.step('step')
+# @pytest.mark.run(order=5)
 # 須今日無任何提現紀錄的帳號測試
 # around_times輸入的次數就等於超過20之後的次數
 # 確認msg出現"系統錯誤"的情境後排除(已排除)

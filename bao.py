@@ -15,7 +15,7 @@ init(autoreset=True)
 s = requests.session()
 
 
-@pytest.fixture(scope='funtion', autouse=True)
+# @pytest.fixture(scope='funtion', autouse=True)
 def login(username, pwd):
     url = "http://sit.frontside.web.gt.owms.ark88.local:7878/E7/MerchantFrontSide/Account/Login"
     rr = s.get(url)
